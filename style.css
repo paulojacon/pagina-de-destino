@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #FF7A7A;
+    background-image: url(bg-intro-desktop.png);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.direita{
+   
+
+}
+.paragrafo_direita{
+    background-color: #6055A5;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    
+}
+.promocao{
+    background-color: antiquewhite;
+}
