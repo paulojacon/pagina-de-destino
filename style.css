@@ -5,30 +5,67 @@
 body{
     background-color: #FF7A7A;
     background-image: url(bg-intro-desktop.png);
+    font-family:'Poppins', sans-serif;
 }
 .container{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.content{
-    padding: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    gap: 0px 15px;
 }
 .direita{
-   
-
+    background-color:red;
 }
-.paragrafo_direita{
-    background-color: #6055A5;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 15px;
+.esquerda{
+    height: 100%;
+    width: 50%;
+    padding-left: 100px;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
 }
-.promocao{
-    background-color: antiquewhite;
+.title{
+    width: 50%;
+    font-size: 29px;
+    color: #ffffff;
+    text-align: left;
 }
+.paragrafo_esquerda{
+    width:50%;
+    margin-top: 15px;
+    font-family:'Poppins', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-align:left;
+}
+.direita{
+    background-color: #FFFFFF;
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+}
+input{
+    height: 40px;
+    margin: 10px;
+    font-size: 12px;
+    border: 1px solid rgb(207, 199, 199);
+    border-radius: 5px ;
+}
+.button{
+    background-color: #38CC8C;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.span_form{
+    font-size: 10px;
+    color: rgb(199, 194, 194);
+}
+
+
