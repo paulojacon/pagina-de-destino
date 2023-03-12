@@ -12,18 +12,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px 15px;
+    gap: 0px 10px;
 }
 .direita{
-    background-color:red;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+
 }
 .esquerda{
     height: 100%;
     width: 50%;
-    padding-left: 100px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
 }
 .title{
     width: 50%;
@@ -40,19 +45,23 @@ body{
     text-align:left;
 }
 .direita{
-    background-color: #FFFFFF;
+    
     border: 2px solid transparent;
     border-radius: 7px;
 }
 .form{
+    background-color: #FFFFFF;
+    width:90% ;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items:center;
     flex-direction: column;
     margin: 10px;
 }
 input{
     height: 40px;
-    margin: 10px;
+    width: 90%;
+    margin: 15px;
     font-size: 12px;
     border: 1px solid rgb(207, 199, 199);
     border-radius: 5px ;
@@ -67,5 +76,45 @@ input{
     font-size: 10px;
     color: rgb(199, 194, 194);
 }
+.paragrafo_direita{
+    background-color: #6055A5;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90%;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+@media(max-width:800px){
+    .paragrafo_direita{
+    height: 40px;
+    width: 90%;
+    font-size: 10px;
+    }
+    .button{
+        font-size: 10px;
+    }
+    .span_form{
+        font-size: 7px;
+        text-align: center;
+    }
+}
+@media (max-width: 650px){
+    .container{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
+@media (max-width: 375px){
+    body{
+        background-color: #FF7A7A;
+        background-image: url(bg-intro-mobile.png);
+    }
+}
 
