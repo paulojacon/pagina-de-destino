@@ -13,7 +13,6 @@
 </head>
 <body>
     <div class="container">
-
         <div class="esquerda">
                 <h2 class="title">Aprenda a codificar observando os outros</h2>
                 <p class="paragrafo_esquerda">Veja como desenvolvedores experientes solucionam problemas em tempo real.
@@ -23,16 +22,15 @@
             <div class="direita">
                 <p class="paragrafo_direita">Experimente grátis por 7 dias</p>
                         <form class="form">
-                            <input type="text" name="primeiro_nome" id="primeiro_nome" placeholder=" Nome">
-                            <input type="text" name="sobrenome" id="sobrenome" placeholder=" Sobrenome">
-                            <input type="email" name="email" id="email" placeholder=" Email">
-                            <input type="password" name="senha" id="senha" placeholder=" Password">
-                            <input type="button" value="REIVINDIQUE SEU TESTE GRATUITO" class="button">
+                            <input type="text" name="nome" id="nome" placeholder=" Nome" required>
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder=" Sobrenome" required>
+                            <input type="email" name="email" id="email" placeholder=" Email" required>
+                            <input type="password" name="senha" id="senha" placeholder=" Password"required>
+                            <input type="button" onclick="clicar()" value="REIVINDIQUE SEU TESTE GRATUITO" class="button">
                             <span class="span_form">Clicando no botão, você concorda com nossos <b style="color:#FF7A7A">Termos e Serviços</b>.</span>
                         </form>
-
             </div>
-
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

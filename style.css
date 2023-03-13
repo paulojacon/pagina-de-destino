@@ -61,8 +61,10 @@ body{
 input{
     height: 40px;
     width: 90%;
-    margin: 15px;
+    margin: 20px;
     font-size: 12px;
+    font-weight: bold;
+    padding-left: 10px;
     border: 1px solid rgb(207, 199, 199);
     border-radius: 5px ;
 }
@@ -71,6 +73,9 @@ input{
     color: #FFFFFF;
     font-weight: bolder;
     font-size: 12px;
+}
+.button:hover{
+    cursor: pointer;
 }
 .span_form{
     font-size: 10px;
